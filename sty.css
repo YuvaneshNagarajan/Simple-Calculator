@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #091921;
+}
+.val
+{
+    position: relative;
+    display: grid;
+}
+.val .enum
+{
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border:none;
+    outline: none;
+    padding: 20px;
+    font-size: 15px;
+}
+.val span
+{
+    display: grid;
+    width:70px;
+    height:70px;
+    color:#fff;
+    background: #0c2835;
+    place-items: center;
+    border:2px solid rgba(0,0,0,.2);
+}
+
+.val span:active
+{
+    background: #fbff07;
+    color:#111;
+}
+
+.val span.numclr
+{
+    grid-column: span 2;
+    width :140px;
+    background: rgb(245, 13, 121);
+}
+
+.val span.numpls
+{
+    grid-row: span 2;
+    height :140px;
+}
+.val span.numclr:active{
+    background: yellow;
+    color:#111;
+}
+.val span.numeql
+{
+    background: rgb(8, 228, 45);
+}
+
+.val span.numeql:active
+{
+    background: yellow;
+    color:#111;
+}
+
